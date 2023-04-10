@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Regular'), local('Lato-Regular'),
+      url('../fonts/Lato-Regular.woff2') format('woff2'),
+      url('../fonts/Lato-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Bold'), local('Lato-Bold'),
+      url('../fonts/Lato-Bold.woff2') format('woff2'),
+      url('../fonts/Lato-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Heavy'), local('Lato-Heavy'),
+      url('../fonts/Lato-Heavy.woff2') format('woff2'),
+      url('../fonts/Lato-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PublicoHeadline';
+  src: local('Lato Heavy'), local('Lato-Heavy'),
+      url('../fonts/Publico-Text-Web-Regular.woff2') format('woff2'),
+      url('../fonts/Publico-Text-Web-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
