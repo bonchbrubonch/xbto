@@ -78,3 +78,41 @@ body {
     transform: translate(-3px, -3px);
   }
 }
+
+.list {
+  padding: 30px;
+  background-color: #2b2c2cbd;
+
+  h1 {
+    margin: 0px 0px 1.25rem 0px;
+    font-size: 2.5rem;
+    line-height: 120%;
+    color: #fff;
+  }
+
+  h2 {
+    margin: 0px 0px 1rem 0px;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+
+  ol li {
+    margin: 0 0 15px 0;
+    list-style-type: decimal;
+
+    a {
+      font-size: 16px;
+      color: #ebe691;
+
+      &:visited {
+        color: #aaa768;
+      }
+    }
+
+
+    &::marker {
+      color: #fff;
+    }
+  }
+
+}

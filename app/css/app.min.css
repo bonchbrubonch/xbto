@@ -1510,6 +1510,42 @@ body {
           transform: translate(-3px, -3px);
 }
 
+.list {
+  padding: 30px;
+  background-color: #2b2c2cbd;
+}
+
+.list h1 {
+  margin: 0px 0px 1.25rem 0px;
+  font-size: 2.5rem;
+  line-height: 120%;
+  color: #fff;
+}
+
+.list h2 {
+  margin: 0px 0px 1rem 0px;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.list ol li {
+  margin: 0 0 15px 0;
+  list-style-type: decimal;
+}
+
+.list ol li a {
+  font-size: 16px;
+  color: #ebe691;
+}
+
+.list ol li a:visited {
+  color: #aaa768;
+}
+
+.list ol li::marker {
+  color: #fff;
+}
+
 @font-face {
   font-family: 'Lato';
   src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
@@ -3428,6 +3464,18 @@ body {
 }
 
 @media (max-width: 700px) {
+  .list h1 {
+    text-align: center;
+    font-size: 1.85rem;
+    margin: 0px 0px 1.25rem 0px;
+  }
+  .list h2 {
+    font-size: 1.125rem;
+    margin: 0px 0px 1rem 0px;
+  }
+  .list ol {
+    padding: 0 20px;
+  }
   .header__logo {
     width: 100px;
     height: 32px;
